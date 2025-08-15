@@ -5,13 +5,10 @@ const SobreContainer = () => {
     <section className='sobre'>
       <h2>Sobre</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Provident similique unde ad vero fugiat porro eum esse. Cupiditate qui
-        iusto explicabo dolor, ipsam vero architecto esse.
-        Consectetur architecto sint officia.
+      Olá! Meu nome é Maria Eduarda e sou uma desenvolvedora apaixonada por criar soluções digitais. Minha jornada na programação começou no ensino médio, durante as aulas de microcontroladores. Foi ali que a curiosidade de dar vida a projetos através do código se transformou em uma verdadeira paixão por transformar ideias em realidade.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus ea voluptatem iusto, nulla corrupti, nobis neque ut explicabo saepe possimus at quia sapiente sint sed id amet, tempore placeat?
+      Atualmente, meu foco é no desenvolvimento front-end, onde busco construir interfaces intuitivas e visualmente agradáveis. Tenho estudado com tecnologias como HTML, CSS e JavaScript, e busco constantemente aprimorar minhas habilidades em React para criar aplicações dinâmicas e de alta performance. Meu objetivo é continuar evoluindo na minha carreira, colaborando em projetos desafiadores e contribuindo para equipes que valorizam a inovação.
       </p>
     </section>
   )
