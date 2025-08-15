@@ -12,6 +12,8 @@ import {
     DiEclipse,
  } from 'react-icons/di';
 
+ import { VscVscode } from 'react-icons/vsc';
+
 import '../styles/components/tecnologiascontainer.sass';
 
 
@@ -25,6 +27,7 @@ const tecnologias = [
     { id: "java", name: "Java", icon: <DiJava />, descricao: "Desenvolvo aplicações back-end, utilizando Java para construir sistemas robustos." },
     { id: "git", name: "Git", icon: <DiGit />, descricao: "Domino o controle de versão com Git e GitHub para colaborar em projetos e gerenciar o histórico de código." },
     { id: "eclipse", name: "Eclipse", icon: <DiEclipse />, descricao: "Conhecimento na IDE Eclipse, utilizada para otimizar o desenvolvimento em Java." },
+    { id: "vscode", name: "VsCode", icon: <VscVscode />, descricao: "Utilizo o VS Code como IDE principal para otimizar o desenvolvimento web." },
 ];
 
 const TecnologiasContainer = () => {
