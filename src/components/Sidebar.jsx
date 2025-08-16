@@ -9,7 +9,9 @@ import image from '../img/eu.jpg'
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-        <img src={image} alt='foto Eduarda Grigório'/>
+        <div className='img-container'>
+                <img src={image} alt='foto Eduarda Grigório' />
+        </div>
         <p className='titulo'>Desenvolvedora</p>
         <RedeSocial/>
         <InformacaoContainer/>
