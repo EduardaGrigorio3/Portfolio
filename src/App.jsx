@@ -1,23 +1,19 @@
-import MainContent from './components/MainContent'
-import Sidebar from './components/Sidebar'
-import './styles/components/app.sass'
+import { Routes, Route } from 'react-router-dom';
 
+import HomePage from './components/HomePage.jsx';  
+import Projetos from '../page/Projetos.jsx';
+
+import './styles/components/app.sass';
 
 function App() {
-
   return (
     <div className='main-container'>
-      <div className="portifolio">
-        <h1>Eduarda Grigório</h1>
-
-        <Sidebar/>
-        <MainContent/>
-
-      </div> 
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projetos" element={<Projetos />} />
+      </Routes>
     </div>
-      
-      
-  )
+  );
 }
 
-export default App
+export default App;

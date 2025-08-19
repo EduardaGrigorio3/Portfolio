@@ -1,0 +1,75 @@
+@use '../variables'
+@use '../mixins'
+
+.projetos
+    padding: 6rem 2rem
+    
+
+.titulo-projeto
+    @include mixins.center
+    margin-top: 1rem
+    margin-bottom: 5rem
+    font-size: 3.5rem
+    font-weight: 700
+    color: variables.$gradient
+    background: variables.$gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.link-tela-inicial
+    color: variables.$text-color
+    text-decoration: none
+    
+
+.texto-projetos
+    color: #969696
+    margin-bottom: 10rem
+
+.projetos-caixa
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
+    gap: 2rem
+    max-width: 1200px
+    margin: 0 auto
+    
+
+.projetos-card
+    border-radius: variables.$card-border-radius
+    border: 1px solid variables.$text-color
+    overflow: hidden
+    transition: all 0.5s ease
+    cursor: pointer
+
+.projetos-card:hover
+    box-shadow: 0 10px 20px rgba(144, 0, 162, 1)
+    transform: translateY(-10px) scale(1.03)
+
+.projetos-img
+    height: 200px
+    width: 100%
+    object-fit: cover
+
+.caixa-informacao
+    padding: 1.5rem
+    background-color: variables.$vidro
+    backdrop-filter: blur(5px)
+
+.info-projetos
+    color: variables.$text-color
+    margin-bottom: 0.5rem
+
+.conteudo-projetos
+    color: variables.$text-color-secondary
+    line-height: 1.3rem
+
+.link-projetos
+    @include mixins.center
+    margin-top: 1rem
+    text-decoration: none
+    font-size: 1.2rem
+    font-weight: 700
+    border: 1px solid variables.$text-color
+    padding: 0.5rem 1rem
+    border-radius: variables.$card-border-radius
+    color: #fb008e
+

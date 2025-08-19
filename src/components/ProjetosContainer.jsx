@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom';
+
 const ProjetosContainer = () => {
   return (
     <section className='projeto-container'>
@@ -7,9 +9,9 @@ const ProjetosContainer = () => {
       <p>
       Aqui estão alguns dos projetos nos quais trabalhei. Eles demonstram minhas habilidades de desenvolvimento, desde a concepção de interfaces até a implementação de funcionalidades.
       </p>
-      <a href="https://github.com/EduardaGrigorio3" className="btn" target='_blank'>
+      <Link to="/Projetos" className="btn" target='_blank'>
         ver projetos
-      </a>
+      </Link>
     </section>
   )
 }
