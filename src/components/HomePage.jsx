@@ -1,6 +1,8 @@
 import Sidebar from './Sidebar';
 import MainContent from './MainContent';
 
+import '../styles/components/homepage.sass';
+
 const HomePage = () => {
   return (
     <div className="portifolio">

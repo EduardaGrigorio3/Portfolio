@@ -12,6 +12,8 @@ const Projetos = () => {
   return (
     <section className='projetos'>
 
+      <div className="particulas"></div>
+
       <h2 className='titulo-projeto'>MEUS PROJETOS</h2>
 
       <nav >
@@ -26,7 +28,7 @@ const Projetos = () => {
           <img src={Quiz} alt='projeto 1' className='projetos-img' />
           <div className='caixa-informacao' >
             <h3 className='info-projetos' >Jogo de Quiz</h3>
-            <p className='conteudo-projetos' >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='conteudo-projetos' >Desenvolvido em React. Utiliza Context API para gerenciar o estado da aplicação, O design é feito com HTML e CSS.</p>
             <a href='https://quiz-app-6usm.vercel.app/' target="_blank" className='link-projetos'>Acesse o projeto</a>
           </div>
         </div>
@@ -35,7 +37,7 @@ const Projetos = () => {
           <img src={BoloDeRolo} alt='projeto 2' className='projetos-img' />
           <div className='caixa-informacao' >
             <h3 className='info-projetos' >Loja de Bolo de Rolo</h3>
-            <p className='conteudo-projetos' >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='conteudo-projetos' >Aplicação full-stack com Node.js (Express) e SQLite, usando HTML, CSS e JavaScript no frontend.</p>
             <a href='https://github.com/EduardaGrigorio3/projeto_site' target="_blank" className='link-projetos'>Acesse o projeto</a>
           </div>
         </div>
@@ -44,7 +46,7 @@ const Projetos = () => {
           <img src={ClinicaVet} alt='projeto 3' className='projetos-img' />
           <div className='caixa-informacao' >
             <h3 className='info-projetos' >Sistema de Clínica Veterinária</h3>
-            <p className='conteudo-projetos' >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='conteudo-projetos' >Aplicação full-stack com arquitetura MVC. Frontend em React com React Router e backend em Node.js (Express) e Sequelize.</p>
             <a href='https://github.com/mayx2/clinica-veterinaria' target="_blank" className='link-projetos'>Acesse o projeto</a>
           </div>
         </div>
@@ -53,7 +55,7 @@ const Projetos = () => {
           <img src={Portifolio} alt='projeto 4' className='projetos-img' />
           <div className='caixa-informacao' >
             <h3 className='info-projetos' >Portifólio pessoal</h3>
-            <p className='conteudo-projetos' >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='conteudo-projetos' >Desenvolvido em React com Vite para otimização e estilizado com Sass para CSS modular.</p>
             <a href='https://portifolio-tan-omega.vercel.app/' target="_blank" className='link-projetos'>Acesse o projeto</a>
           </div>
         </div>
