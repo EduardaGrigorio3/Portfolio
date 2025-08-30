@@ -6,9 +6,9 @@ Este é o meu portfólio pessoal, um projeto desenvolvido para apresentar minhas
 
 ### ✨ Funcionalidades
 
-* **Design Responsivo:** O layout se adapta perfeitamente a diferentes tamanhos de tela (desktop, tablet e mobile).
+* **Design Responsivo:** O layout se adapta perfeitamente a diferentes tamanhos de tela.
 * **Seção "Sobre":** Uma breve introdução sobre minha trajetória e paixão por tecnologia.
-* **Seção de Habilidades:** Lista detalhada das tecnologias que domino.
+* **Seção de Habilidades:** Lista detalhada das tecnologias que estudo.
 * **Seção de Projetos:** Galeria com os principais projetos que desenvolvi.
 * **Links para Redes Sociais:** Conectividade com meu GitHub, LinkedIn e Instagram.
 * **Animações e Efeitos:** Transições e efeitos de `hover` para uma navegação mais dinâmica.
@@ -43,7 +43,7 @@ Se você quiser clonar e rodar este projeto na sua máquina, siga os passos abai
     npm run dev
     ```
 
-O projeto estará disponível em `http://localhost:5173`.
+O projeto estará disponível em `http://localhost:5173` ou `https://portifolio-tan-omega.vercel.app/`.
 
 ### ✒️ Autor
 
