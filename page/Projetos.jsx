@@ -56,7 +56,7 @@ const Projetos = () => {
           <div className='caixa-informacao' >
             <h3 className='info-projetos' >Portifólio pessoal</h3>
             <p className='conteudo-projetos' >Desenvolvido em React com Vite para otimização e estilizado com Sass para CSS modular.</p>
-            <a href='https://github.com/EduardaGrigorio3/Portifolio/blob/main/README.md' target="_blank" className='link-projetos'>Acesse o projeto</a>
+            <a href='https://github.com/EduardaGrigorio3/Portifolio' target="_blank" className='link-projetos'>Acesse o projeto</a>
           </div>
         </div>
 
