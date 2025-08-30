@@ -5,7 +5,7 @@
     padding: 6rem 2rem
 
     @media (max-width: variables.$mobile) 
-        padding: 2rem 1rem; // Diminui o padding para um valor mais adequado
+        padding: 2rem 1rem; 
     
 
 .particulas
@@ -55,8 +55,9 @@
     gap: 2rem
     max-width: 1200px
     margin: 0 auto
-    
+    align-items: start;
 
+  
 .projetos-card
     border-radius: variables.$card-border-radius
     border: 1px solid variables.$text-color
@@ -64,6 +65,7 @@
     transition: all 0.5s ease
     cursor: pointer
     margin-top: 2rem
+    
     
 
 .projetos-card:hover
@@ -80,6 +82,9 @@
 .caixa-informacao
     padding: 1.5rem
     background-color: variables.$vidro
+    display: flex; 
+    flex-direction: column; 
+    height: 100%;
 
 .info-projetos
     color: variables.$text-color
@@ -88,6 +93,7 @@
 .conteudo-projetos
     color: variables.$text-color-secondary
     line-height: 1.3rem
+    flex-grow: 1
 
 .link-projetos
     @include mixins.center
