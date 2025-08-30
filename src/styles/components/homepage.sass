@@ -9,9 +9,15 @@
     width: 100%; 
 
     
+    @media (max-width: variables.$tablet - 1) 
+        padding: 1rem; // Ajusta o padding para celular
+        gap: 1rem; // Ajusta o gap para celular
+    
+
     @media (min-width: variables.$tablet) 
         flex-direction: row;
-        max-width: 100%; 
+        max-width: 100%;
+    
         
     h1 
         width: 100%
