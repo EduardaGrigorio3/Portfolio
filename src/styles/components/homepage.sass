@@ -1,4 +1,5 @@
 @use '../variables'
+@use '../mixins'
 
 .portifolio
     display: flex
@@ -12,6 +13,7 @@
     @media (max-width: variables.$tablet - 1) 
         padding: 1rem; // Ajusta o padding para celular
         gap: 1rem; // Ajusta o gap para celular
+
     
 
     @media (min-width: variables.$tablet) 
@@ -27,3 +29,6 @@
         -webkit-background-clip: text // coloca o gradiente dentro do texto
         -webkit-text-fill-color: transparent // coloca o gradiente dentro do texto
 
+        @media (max-width: variables.$tablet) 
+            text-align: center;
+        
