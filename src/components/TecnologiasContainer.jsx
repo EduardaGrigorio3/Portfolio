@@ -19,13 +19,13 @@ import '../styles/components/tecnologiascontainer.sass';
 
 const tecnologias = [
     { id: "html", name: "HTML5", icon: <DiHtml5 />, descricao: "Desenvolvo interfaces responsivas e acessíveis, priorizando a semântica." },
-    { id: "css", name: "CSS3", icon: <DiCss3 />, descricao: "Crio layouts modernos e estilos únicos, utilizando Sass para organização." },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge />, descricao: "Tenho experiência com a manipulação do DOM e a criação de funcionalidades dinâmicas." },
+    { id: "css", name: "CSS3", icon: <DiCss3 />, descricao: "Crio layouts modernos e intuitivos, pensando sempre na melhor experiência do usuário." },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />, descricao: "Crio funcionalidades dinâmicas para tornar as páginas web mais interativas e responsivas." },
     { id: "node", name: "Node.js", icon: <DiNodejsSmall />, descricao: "Construo APIs e servidores, utilizando o Express para gerenciar rotas e requisições." },
     { id: "sqlite", name: "SqLite", icon: <DiSqllite />, descricao: "Tenho conhecimento em bancos de dados SQL para armazenar dados de aplicações." },
     { id: "react", name: "React", icon: <DiReact />, descricao: "Utilizo o React para construir componentes reutilizáveis, gerenciando o estado da aplicação." },
-    { id: "java", name: "Java", icon: <DiJava />, descricao: "Desenvolvo aplicações back-end, utilizando Java para construir sistemas robustos." },
-    { id: "git", name: "Git", icon: <DiGit />, descricao: "Domino o controle de versão com Git e GitHub para colaborar em projetos e gerenciar o histórico de código." },
+    { id: "java", name: "Java", icon: <DiJava />, descricao: "Desenvolvo aplicações com base em Java, aplicando os princípios da Programação Orientada a Objetos (POO)" },
+    { id: "git", name: "Git", icon: <DiGit />, descricao: "Utilizo para controle de versão em projetos, colaborando e gerenciando o histórico de código." },
     { id: "eclipse", name: "Eclipse", icon: <DiEclipse />, descricao: "Conhecimento na IDE Eclipse, utilizada para otimizar o desenvolvimento em Java." },
     { id: "vscode", name: "VsCode", icon: <VscVscode />, descricao: "Utilizo o VS Code como IDE principal para otimizar o desenvolvimento web." },
 ];
