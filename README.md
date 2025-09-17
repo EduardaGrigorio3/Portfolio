@@ -6,7 +6,7 @@ Este é o meu portfólio pessoal, um projeto desenvolvido para apresentar minhas
 
 ### ✨ Funcionalidades
 
-* **Design Responsivo:** O layout se adapta perfeitamente a diferentes tamanhos de tela.
+* **Design Responsivo:** O layout se adapta a diferentes tamanhos de tela.
 * **Seção "Sobre":** Uma breve introdução sobre minha trajetória e paixão por tecnologia.
 * **Seção de Habilidades:** Lista detalhada das tecnologias que estudo.
 * **Seção de Projetos:** Galeria com os principais projetos que desenvolvi.
@@ -49,7 +49,7 @@ O projeto estará disponível em `http://localhost:5173` ou `https://portifolio-
 
 **Eduarda Grigório**
 
-* **GitHub:** [github.com/SeuUsuario](https://github.com/EduardaGrigorio3)
-* **LinkedIn:** [linkedin.com/in/SeuPerfil](https://www.linkedin.com/in/eduardagrig%C3%B3rio)
+* **GitHub:** [github.com/Meu GitHub](https://github.com/EduardaGrigorio3)
+* **LinkedIn:** [linkedin.com/in/Meu Linkedin(https://www.linkedin.com/in/eduardagrig%C3%B3rio)
 
 ---
